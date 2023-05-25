@@ -34,7 +34,7 @@ resource "aws_security_group" "sko_compliance_violation" {
     cidr_blocks      = ["0.0.0.0/0"]
   }
   tags = {
-    Name = "sko_compliance_violation"
+    Name = "demo_compliance_violation"
   }
 }
 */
